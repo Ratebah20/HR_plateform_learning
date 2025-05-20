@@ -1,0 +1,9 @@
+[sqlserver]
+server = YOUR_SERVER_NAME
+port = 1433
+database = GestionFormation
+username = sa
+password = YOUR_PASSWORD
+trusted_connection = no
+
+timeout = 30
