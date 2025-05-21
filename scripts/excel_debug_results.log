@@ -1,0 +1,468 @@
+
+================================================================================
+Analyse du fichier: Copy of Rapport - Toutes les formations OLU au 20241129 - Draft Rateb (002).xlsx
+================================================================================
+
+1. Colonnes lues avec pd.read_excel standard (10):
+    1. 'Unnamed: 0' (type: str)
+    2. 'Unnamed: 1' (type: str)
+    3. 'Unnamed: 2' (type: str)
+    4. 'Unnamed: 3' (type: str)
+    5. 'Unnamed: 4' (type: str)
+    6. 'Unnamed: 5' (type: str)
+    7. 'Unnamed: 6' (type: str)
+    8. 'Unnamed: 7' (type: str)
+    9. 'Unnamed: 8' (type: str)
+   10. 'Unnamed: 9' (type: str)
+
+2. Colonnes lues avec dtype=str (10):
+    1. 'Unnamed: 0' (type: str)
+    2. 'Unnamed: 1' (type: str)
+    3. 'Unnamed: 2' (type: str)
+    4. 'Unnamed: 3' (type: str)
+    5. 'Unnamed: 4' (type: str)
+    6. 'Unnamed: 5' (type: str)
+    7. 'Unnamed: 6' (type: str)
+    8. 'Unnamed: 7' (type: str)
+    9. 'Unnamed: 8' (type: str)
+   10. 'Unnamed: 9' (type: str)
+
+3. Colonnes lues avec header=0 (10):
+    1. 'Unnamed: 0' (type: str)
+    2. 'Unnamed: 1' (type: str)
+    3. 'Unnamed: 2' (type: str)
+    4. 'Unnamed: 3' (type: str)
+    5. 'Unnamed: 4' (type: str)
+    6. 'Unnamed: 5' (type: str)
+    7. 'Unnamed: 6' (type: str)
+    8. 'Unnamed: 7' (type: str)
+    9. 'Unnamed: 8' (type: str)
+   10. 'Unnamed: 9' (type: str)
+
+4. Comparaison avec les colonnes attendues:
+   Nombre de colonnes attendues: 10
+   Nombre de colonnes présentes: 10
+
+   Colonnes attendues mais non trouvées (10):
+    1. 'Formation - Heures de formation'
+    2. 'Formation - Titre de la formation'
+    3. 'Formation - Type de formation'
+    4. 'Récapitulatif - Assigné par'
+    5. 'Récapitulatif - Date d'achèvement'
+    6. 'Récapitulatif - Date d'inscription'
+    7. 'Récapitulatif - Statut'
+    8. 'Utilisateur - ID d'utilisateur'
+    9. 'Utilisateur - Manager - Nom complet'
+   10. 'Utilisateur - Sexe de l'utilisateur'
+
+   Correspondances possibles pour les colonnes manquantes:
+   'Formation - Heures de formation': Aucune correspondance proche trouvée
+   'Formation - Titre de la formation': Aucune correspondance proche trouvée
+   'Formation - Type de formation': Aucune correspondance proche trouvée
+   'Récapitulatif - Assigné par': Aucune correspondance proche trouvée
+   'Récapitulatif - Date d'achèvement': Aucune correspondance proche trouvée
+   'Récapitulatif - Date d'inscription': Aucune correspondance proche trouvée
+   'Récapitulatif - Statut': Aucune correspondance proche trouvée
+   'Utilisateur - ID d'utilisateur': Aucune correspondance proche trouvée
+   'Utilisateur - Manager - Nom complet': Aucune correspondance proche trouvée
+   'Utilisateur - Sexe de l'utilisateur': Aucune correspondance proche trouvée
+
+   Colonnes présentes mais non attendues (10):
+    1. 'Unnamed: 0'
+    2. 'Unnamed: 1'
+    3. 'Unnamed: 2'
+    4. 'Unnamed: 3'
+    5. 'Unnamed: 4'
+    6. 'Unnamed: 5'
+    7. 'Unnamed: 6'
+    8. 'Unnamed: 7'
+    9. 'Unnamed: 8'
+   10. 'Unnamed: 9'
+
+================================================================================
+Analyse du fichier: SUIVI FORMATIONS - Draft Rateb.xlsx
+================================================================================
+
+1. Colonnes lues avec pd.read_excel standard (13):
+    1. 'Unnamed: 0' (type: str)
+    2. 'Unnamed: 1' (type: str)
+    3. 'Unnamed: 2' (type: str)
+    4. 'Unnamed: 3' (type: str)
+    5. 'Unnamed: 4' (type: str)
+    6. 'Unnamed: 5' (type: str)
+    7. 'Unnamed: 6' (type: str)
+    8. 'Unnamed: 7' (type: str)
+    9. 'Unnamed: 8' (type: str)
+   10. 'Unnamed: 9' (type: str)
+   11. 'Unnamed: 10' (type: str)
+   12. 'Unnamed: 11' (type: str)
+   13. 'Unnamed: 12' (type: str)
+
+2. Colonnes lues avec dtype=str (13):
+    1. 'Unnamed: 0' (type: str)
+    2. 'Unnamed: 1' (type: str)
+    3. 'Unnamed: 2' (type: str)
+    4. 'Unnamed: 3' (type: str)
+    5. 'Unnamed: 4' (type: str)
+    6. 'Unnamed: 5' (type: str)
+    7. 'Unnamed: 6' (type: str)
+    8. 'Unnamed: 7' (type: str)
+    9. 'Unnamed: 8' (type: str)
+   10. 'Unnamed: 9' (type: str)
+   11. 'Unnamed: 10' (type: str)
+   12. 'Unnamed: 11' (type: str)
+   13. 'Unnamed: 12' (type: str)
+
+3. Colonnes lues avec header=0 (13):
+    1. 'Unnamed: 0' (type: str)
+    2. 'Unnamed: 1' (type: str)
+    3. 'Unnamed: 2' (type: str)
+    4. 'Unnamed: 3' (type: str)
+    5. 'Unnamed: 4' (type: str)
+    6. 'Unnamed: 5' (type: str)
+    7. 'Unnamed: 6' (type: str)
+    8. 'Unnamed: 7' (type: str)
+    9. 'Unnamed: 8' (type: str)
+   10. 'Unnamed: 9' (type: str)
+   11. 'Unnamed: 10' (type: str)
+   12. 'Unnamed: 11' (type: str)
+   13. 'Unnamed: 12' (type: str)
+
+4. Comparaison avec les colonnes attendues:
+   Nombre de colonnes attendues: 13
+   Nombre de colonnes présentes: 13
+
+   Colonnes attendues mais non trouvées (13):
+    1. 'AU'
+    2. 'CATEGORIE'
+    3. 'CONTRAT'
+    4. 'Commentaires'
+    5. 'DEPARTEMENT'
+    6. 'DU'
+    7. 'DUREE'
+    8. 'GENRE'
+    9. 'ID COLLABORATEUR'
+   10. 'MANAGER'
+   11. 'NOM FORMATION'
+   12. 'ORGANISME FORMATION'
+   13. 'TARIF HT'
+
+   Correspondances possibles pour les colonnes manquantes:
+   'AU': Aucune correspondance proche trouvée
+   'CATEGORIE': Aucune correspondance proche trouvée
+   'CONTRAT': Aucune correspondance proche trouvée
+   'Commentaires': Aucune correspondance proche trouvée
+   'DEPARTEMENT': Aucune correspondance proche trouvée
+   'DU': Aucune correspondance proche trouvée
+   'DUREE': Aucune correspondance proche trouvée
+   'GENRE': Aucune correspondance proche trouvée
+   'ID COLLABORATEUR': Aucune correspondance proche trouvée
+   'MANAGER': Aucune correspondance proche trouvée
+   'NOM FORMATION': Aucune correspondance proche trouvée
+   'ORGANISME FORMATION': Aucune correspondance proche trouvée
+   'TARIF HT': Aucune correspondance proche trouvée
+
+   Colonnes présentes mais non attendues (13):
+    1. 'Unnamed: 0'
+    2. 'Unnamed: 1'
+    3. 'Unnamed: 10'
+    4. 'Unnamed: 11'
+    5. 'Unnamed: 12'
+    6. 'Unnamed: 2'
+    7. 'Unnamed: 3'
+    8. 'Unnamed: 4'
+    9. 'Unnamed: 5'
+   10. 'Unnamed: 6'
+   11. 'Unnamed: 7'
+   12. 'Unnamed: 8'
+   13. 'Unnamed: 9'
+
+================================================================================
+Analyse du fichier: Template - PLAN FORMATION.xlsx
+================================================================================
+
+1. Colonnes lues avec pd.read_excel standard (17):
+    1. 'Unnamed: 0' (type: str)
+    2. 'Unnamed: 1' (type: str)
+    3. 'Unnamed: 2' (type: str)
+    4. 'Unnamed: 3' (type: str)
+    5. 'Unnamed: 4' (type: str)
+    6. 'Unnamed: 5' (type: str)
+    7. 'Unnamed: 6' (type: str)
+    8. 'Unnamed: 7' (type: str)
+    9. 'Unnamed: 8' (type: str)
+   10. 'Unnamed: 9' (type: str)
+   11. 'Unnamed: 10' (type: str)
+   12. 'Unnamed: 11' (type: str)
+   13. 'Unnamed: 12' (type: str)
+   14. 'Unnamed: 13' (type: str)
+   15. 'Unnamed: 14' (type: str)
+   16. 'Unnamed: 15' (type: str)
+   17. 'Unnamed: 16' (type: str)
+
+2. Colonnes lues avec dtype=str (17):
+    1. 'Unnamed: 0' (type: str)
+    2. 'Unnamed: 1' (type: str)
+    3. 'Unnamed: 2' (type: str)
+    4. 'Unnamed: 3' (type: str)
+    5. 'Unnamed: 4' (type: str)
+    6. 'Unnamed: 5' (type: str)
+    7. 'Unnamed: 6' (type: str)
+    8. 'Unnamed: 7' (type: str)
+    9. 'Unnamed: 8' (type: str)
+   10. 'Unnamed: 9' (type: str)
+   11. 'Unnamed: 10' (type: str)
+   12. 'Unnamed: 11' (type: str)
+   13. 'Unnamed: 12' (type: str)
+   14. 'Unnamed: 13' (type: str)
+   15. 'Unnamed: 14' (type: str)
+   16. 'Unnamed: 15' (type: str)
+   17. 'Unnamed: 16' (type: str)
+
+3. Colonnes lues avec header=0 (17):
+    1. 'Unnamed: 0' (type: str)
+    2. 'Unnamed: 1' (type: str)
+    3. 'Unnamed: 2' (type: str)
+    4. 'Unnamed: 3' (type: str)
+    5. 'Unnamed: 4' (type: str)
+    6. 'Unnamed: 5' (type: str)
+    7. 'Unnamed: 6' (type: str)
+    8. 'Unnamed: 7' (type: str)
+    9. 'Unnamed: 8' (type: str)
+   10. 'Unnamed: 9' (type: str)
+   11. 'Unnamed: 10' (type: str)
+   12. 'Unnamed: 11' (type: str)
+   13. 'Unnamed: 12' (type: str)
+   14. 'Unnamed: 13' (type: str)
+   15. 'Unnamed: 14' (type: str)
+   16. 'Unnamed: 15' (type: str)
+   17. 'Unnamed: 16' (type: str)
+
+4. Comparaison avec les colonnes attendues:
+   Nombre de colonnes attendues: 16
+   Nombre de colonnes présentes: 17
+
+   Colonnes attendues mais non trouvées (16):
+    1. 'BUDGET'
+    2. 'CATEGORIE/OBJECTIF'
+    3. 'COLLABORATEUR'
+    4. 'Commentaires'
+    5. 'DEPARTEMENT'
+    6. 'DUREE'
+    7. 'ID COLLABORATEUR'
+    8. 'MANAGER'
+    9. 'NOM FORMATION'
+   10. 'OBLIGATOIRE OU NON'
+   11. 'ORGANISME FORMATION'
+   12. 'PRIORITE'
+   13. 'SESSIONS'
+   14. 'TARIF HT'
+   15. 'TYPE FORMATION'
+   16. 'VALIDEE'
+
+   Correspondances possibles pour les colonnes manquantes:
+   'BUDGET': Aucune correspondance proche trouvée
+   'CATEGORIE/OBJECTIF': Aucune correspondance proche trouvée
+   'COLLABORATEUR': Aucune correspondance proche trouvée
+   'Commentaires': Aucune correspondance proche trouvée
+   'DEPARTEMENT': Aucune correspondance proche trouvée
+   'DUREE': Aucune correspondance proche trouvée
+   'ID COLLABORATEUR': Aucune correspondance proche trouvée
+   'MANAGER': Aucune correspondance proche trouvée
+   'NOM FORMATION': Aucune correspondance proche trouvée
+   'OBLIGATOIRE OU NON': Aucune correspondance proche trouvée
+   'ORGANISME FORMATION': Aucune correspondance proche trouvée
+   'PRIORITE': Aucune correspondance proche trouvée
+   'SESSIONS': Aucune correspondance proche trouvée
+   'TARIF HT': Aucune correspondance proche trouvée
+   'TYPE FORMATION': Aucune correspondance proche trouvée
+   'VALIDEE': Aucune correspondance proche trouvée
+
+   Colonnes présentes mais non attendues (17):
+    1. 'Unnamed: 0'
+    2. 'Unnamed: 1'
+    3. 'Unnamed: 10'
+    4. 'Unnamed: 11'
+    5. 'Unnamed: 12'
+    6. 'Unnamed: 13'
+    7. 'Unnamed: 14'
+    8. 'Unnamed: 15'
+    9. 'Unnamed: 16'
+   10. 'Unnamed: 2'
+   11. 'Unnamed: 3'
+   12. 'Unnamed: 4'
+   13. 'Unnamed: 5'
+   14. 'Unnamed: 6'
+   15. 'Unnamed: 7'
+   16. 'Unnamed: 8'
+   17. 'Unnamed: 9'
+
+================================================================================
+Analyse du fichier: Template - Budget formations.xlsx
+================================================================================
+
+1. Colonnes lues avec pd.read_excel standard (9):
+    1. 'Unnamed: 0' (type: str)
+    2. 'Unnamed: 1' (type: str)
+    3. 'Unnamed: 2' (type: str)
+    4. 'Unnamed: 3' (type: str)
+    5. 'Unnamed: 4' (type: str)
+    6. 'Unnamed: 5' (type: str)
+    7. 'Unnamed: 6' (type: str)
+    8. 'Unnamed: 7' (type: str)
+    9. 'Unnamed: 8' (type: str)
+
+2. Colonnes lues avec dtype=str (9):
+    1. 'Unnamed: 0' (type: str)
+    2. 'Unnamed: 1' (type: str)
+    3. 'Unnamed: 2' (type: str)
+    4. 'Unnamed: 3' (type: str)
+    5. 'Unnamed: 4' (type: str)
+    6. 'Unnamed: 5' (type: str)
+    7. 'Unnamed: 6' (type: str)
+    8. 'Unnamed: 7' (type: str)
+    9. 'Unnamed: 8' (type: str)
+
+3. Colonnes lues avec header=0 (9):
+    1. 'Unnamed: 0' (type: str)
+    2. 'Unnamed: 1' (type: str)
+    3. 'Unnamed: 2' (type: str)
+    4. 'Unnamed: 3' (type: str)
+    5. 'Unnamed: 4' (type: str)
+    6. 'Unnamed: 5' (type: str)
+    7. 'Unnamed: 6' (type: str)
+    8. 'Unnamed: 7' (type: str)
+    9. 'Unnamed: 8' (type: str)
+
+4. Comparaison avec les colonnes attendues:
+   Nombre de colonnes attendues: 8
+   Nombre de colonnes présentes: 9
+
+   Colonnes attendues mais non trouvées (8):
+    1. 'BUDGET'
+    2. 'Commentaires'
+    3. 'DATES'
+    4. 'EMPLOYES'
+    5. 'NOM FORMATION'
+    6. 'ORGANISME FORMATION'
+    7. 'SEMESTRE DE VALIDATION'
+    8. 'TARIF HT'
+
+   Correspondances possibles pour les colonnes manquantes:
+   'BUDGET': Aucune correspondance proche trouvée
+   'Commentaires': Aucune correspondance proche trouvée
+   'DATES': Aucune correspondance proche trouvée
+   'EMPLOYES': Aucune correspondance proche trouvée
+   'NOM FORMATION': Aucune correspondance proche trouvée
+   'ORGANISME FORMATION': Aucune correspondance proche trouvée
+   'SEMESTRE DE VALIDATION': Aucune correspondance proche trouvée
+   'TARIF HT': Aucune correspondance proche trouvée
+
+   Colonnes présentes mais non attendues (9):
+    1. 'Unnamed: 0'
+    2. 'Unnamed: 1'
+    3. 'Unnamed: 2'
+    4. 'Unnamed: 3'
+    5. 'Unnamed: 4'
+    6. 'Unnamed: 5'
+    7. 'Unnamed: 6'
+    8. 'Unnamed: 7'
+    9. 'Unnamed: 8'
+
+================================================================================
+Analyse du fichier: Template - Tableau recueil formations.xlsx
+================================================================================
+
+1. Colonnes lues avec pd.read_excel standard (13):
+    1. 'Unnamed: 0' (type: str)
+    2. 'Unnamed: 1' (type: str)
+    3. 'Unnamed: 2' (type: str)
+    4. 'Unnamed: 3' (type: str)
+    5. 'Unnamed: 4' (type: str)
+    6. 'Unnamed: 5' (type: str)
+    7. 'Unnamed: 6' (type: str)
+    8. 'Unnamed: 7' (type: str)
+    9. 'Unnamed: 8' (type: str)
+   10. 'Unnamed: 9' (type: str)
+   11. 'Unnamed: 10' (type: str)
+   12. 'Unnamed: 11' (type: str)
+   13. 'Unnamed: 12' (type: str)
+
+2. Colonnes lues avec dtype=str (13):
+    1. 'Unnamed: 0' (type: str)
+    2. 'Unnamed: 1' (type: str)
+    3. 'Unnamed: 2' (type: str)
+    4. 'Unnamed: 3' (type: str)
+    5. 'Unnamed: 4' (type: str)
+    6. 'Unnamed: 5' (type: str)
+    7. 'Unnamed: 6' (type: str)
+    8. 'Unnamed: 7' (type: str)
+    9. 'Unnamed: 8' (type: str)
+   10. 'Unnamed: 9' (type: str)
+   11. 'Unnamed: 10' (type: str)
+   12. 'Unnamed: 11' (type: str)
+   13. 'Unnamed: 12' (type: str)
+
+3. Colonnes lues avec header=0 (13):
+    1. 'Unnamed: 0' (type: str)
+    2. 'Unnamed: 1' (type: str)
+    3. 'Unnamed: 2' (type: str)
+    4. 'Unnamed: 3' (type: str)
+    5. 'Unnamed: 4' (type: str)
+    6. 'Unnamed: 5' (type: str)
+    7. 'Unnamed: 6' (type: str)
+    8. 'Unnamed: 7' (type: str)
+    9. 'Unnamed: 8' (type: str)
+   10. 'Unnamed: 9' (type: str)
+   11. 'Unnamed: 10' (type: str)
+   12. 'Unnamed: 11' (type: str)
+   13. 'Unnamed: 12' (type: str)
+
+4. Comparaison avec les colonnes attendues:
+   Nombre de colonnes attendues: 13
+   Nombre de colonnes présentes: 13
+
+   Colonnes attendues mais non trouvées (13):
+    1. 'CATEGORIE/OBJECTIF'
+    2. 'COLLABORATEUR'
+    3. 'Commentaires'
+    4. 'DEPARTEMENT'
+    5. 'DUREE'
+    6. 'ID COLLABORATEUR'
+    7. 'MANAGER'
+    8. 'NOM FORMATION'
+    9. 'ORGANISME FORMATION'
+   10. 'PRIORITE'
+   11. 'SESSIONS'
+   12. 'TARIF HT'
+   13. 'TYPE FORMATION'
+
+   Correspondances possibles pour les colonnes manquantes:
+   'CATEGORIE/OBJECTIF': Aucune correspondance proche trouvée
+   'COLLABORATEUR': Aucune correspondance proche trouvée
+   'Commentaires': Aucune correspondance proche trouvée
+   'DEPARTEMENT': Aucune correspondance proche trouvée
+   'DUREE': Aucune correspondance proche trouvée
+   'ID COLLABORATEUR': Aucune correspondance proche trouvée
+   'MANAGER': Aucune correspondance proche trouvée
+   'NOM FORMATION': Aucune correspondance proche trouvée
+   'ORGANISME FORMATION': Aucune correspondance proche trouvée
+   'PRIORITE': Aucune correspondance proche trouvée
+   'SESSIONS': Aucune correspondance proche trouvée
+   'TARIF HT': Aucune correspondance proche trouvée
+   'TYPE FORMATION': Aucune correspondance proche trouvée
+
+   Colonnes présentes mais non attendues (13):
+    1. 'Unnamed: 0'
+    2. 'Unnamed: 1'
+    3. 'Unnamed: 10'
+    4. 'Unnamed: 11'
+    5. 'Unnamed: 12'
+    6. 'Unnamed: 2'
+    7. 'Unnamed: 3'
+    8. 'Unnamed: 4'
+    9. 'Unnamed: 5'
+   10. 'Unnamed: 6'
+   11. 'Unnamed: 7'
+   12. 'Unnamed: 8'
+   13. 'Unnamed: 9'
